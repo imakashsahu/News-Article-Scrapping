@@ -1,5 +1,5 @@
-# from newsfetch.news import newspaper
-from news import newspaper
+## This Python code lets you fetch the News Article Details using the Article Link URL
+from newsfetch.news import newspaper
 import json
 
 news = newspaper('https://edition.cnn.com/travel/article/disney-world-trip-planning-2020/index.html')
@@ -13,7 +13,6 @@ data = {'Article':
                 'modify_date': news.date_modify,
                 'download_date': news.date_download,
                 'image_url': news.image_url,
-                'language': news.language,
                 'filename': news.filename,
                 'description': news.description,
                 'publication': news.publication,

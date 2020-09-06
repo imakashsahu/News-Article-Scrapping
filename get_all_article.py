@@ -2,8 +2,7 @@
 # https://github.com/codelucas/newspaper/blob/master/docs/user_guide/advanced.rst
 
 import newspaper as newspaper3k
-# from newsfetch.news import newspaper as newsfetch # Use After Fix 
-from news import newspaper as newsfetch # Use Local File until the Image URl and Language is fixed by Developer
+from newsfetch.news import newspaper as newsfetch
 from datetime import date
 import json
 
@@ -45,7 +44,6 @@ for article in news_paper.articles:
                                 'modify_date': news.date_modify,
                                 'download_date': news.date_download,
                                 'image_url': news.image_url,
-                                'language': news.language,
                                 'filename': news.filename,
                                 'description': news.description,
                                 'publication': news.publication,

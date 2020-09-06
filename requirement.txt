@@ -1,13 +1,2 @@
-newspaper3k - 0.2.8 (pip install newspaper3k)
-news-fetch - 0.2.5 (pip install news-fetch)
-
-# !! IMPORTANT CHANGES TO BE MADE
-# 1. news.py (News-Fetch Library) Change the Languauge and Image URL
-#     Location for news.py : C:\Users\Akash Sahu\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\newsfetch
-#     LINE 78 : change "image_url" to "language"
-#     LINE 130 : Add a new line "'language': self.language,"
-
-# 2. Memoize Location - settings.py (newspaper library)
-#     LINE 33 : https://github.com/codelucas/newspaper/blob/beacce0e167349374ce0b37012b01c7c07a26890/newspaper/settings.py
-#     Change the Default LOC : C:\Users\Akash Sahu\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\newspaper
-#     Default WINDOWS LOC for storage : C:\Users\Akash Sahu\AppData\Local\Temp\.newspaper_scraper
+newspaper3k
+news-fetch
