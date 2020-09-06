@@ -36,15 +36,13 @@ There are two python file to server two type of purpose.
 
 
 ## Tweak to made fulfill your needs
-- The Code is developed fetch the news article from the source for the past 24 hrs by default but can be changed in ***get_all_article.py***
-    **difference_day == 0:**
-    0 - If you want to fetch all article from Today
-    1 - If you want to fetch all article from yesterday
-    Increase number accordingly to fetch the respective date
+1. The Code is developed fetch the news article from the source for the past 24 hrs by default but can be changed in ***get_all_article.py***
+   - **difference_day == 0:**
+   - 0 - If you want to fetch all article from Today
+   - 1 - If you want to fetch all article from yesterday
+   - Increase number accordingly to fetch the respective date
 
-- The code uses the memoize feature in order to fetch only the new fetch when run rather than unnecessarily fetching all articles on every run
-    **news_paper = newspaper3k.build('http://www.cnn.com/', memoize_articles=True)**
-    *memoize_articles=TRUE* turns memoize ON
-    *memoize_articles=FALSE* turns memoize OFF
-
-   
+2. The code uses the memoize feature in order to fetch only the new fetch when run rather than unnecessarily fetching all articles on every run
+   - **news_paper = newspaper3k.build('http://www.cnn.com/', memoize_articles=True)**
+   - *memoize_articles=TRUE* turns memoize ON
+   - *memoize_articles=FALSE* turns memoize OFF
